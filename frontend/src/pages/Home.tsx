@@ -1,10 +1,13 @@
 import React from "react";
+import { MainLayout } from "../layout/mainLayout";
+
 
 export const Home: React.FC = () => {
   return (
-    <div>
-      <h1>Biblioteca Virtual</h1>
-      <p>Bem-vindo à nossa biblioteca virtual!</p>
-    </div>
+    <MainLayout>
+      <div>
+        <h1>Bem-vindo à Biblioteca Digital</h1>
+      </div>
+    </MainLayout>
   );
 };
